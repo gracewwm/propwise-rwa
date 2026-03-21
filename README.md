@@ -22,11 +22,22 @@ This section will be expanded with the full system design, including:
 - Frontend application flow built with Next.js
 - Deployment and infrastructure components
 
-## AI Agent Roles
+  ## 🤖 AI Agent Roles (The "PropWise Copilot")
+To ensure Gen Z investors make data-driven decisions without needing a background in real estate, PropWise RWA utilizes autonomous AI agents deployed on the Base ecosystem:
 
-This section will be expanded with the specific responsibilities of the AI agents in the product, including:
+1. **Yield & Valuation Analyst Agent:** * Continuously scans macro-economic data and local property trends in emerging markets (like Indonesia).
+   * Calculates projected Annual Percentage Yield (APY), ROI, and fair market value for each tokenized asset.
+2. **Risk & Due Diligence Agent:**
+   * Acts as an automated auditor. It cross-references legal documents, developer track records, and historical price volatility to assign a dynamic "Risk Score" (A+ to C) to every property.
+3. **Personalized Wealth Matchmaker:**
+   * Conversational AI that interacts with users to understand their risk appetite and budget, recommending the perfect fractional RWA portfolio.
 
-- Property due diligence and data summarization
-- Yield and risk analysis for tokenized properties
-- Compliance guidance and investor-facing explanations
-- Research, documentation, and coordination during hackathon development
+## 🏗️ Technical Architecture (High-Level)
+PropWise RWA is designed to be secure, scalable, and fully integrated with the **Base Mainnet**:
+
+* **Smart Contracts (Base Mainnet):** * **Fractionalization:** Utilizing ERC-1155 / ERC-3643 standards to tokenize real-world properties into affordable fractional shares.
+  * **Payment & Escrow:** Seamless integration with **USDC** for low-fee, instantaneous property share purchases and yield distribution.
+* **AI Integration Layer:**
+  * Off-chain AI agents fetch real-time market data, process it, and feed the verified analytical data back to the platform to guide user investments.
+* **User Experience:**
+  * A mobile-first, Web2-friendly interface with Account Abstraction (ERC-4337) to remove the friction of gas fees and seed phrases for mainstream Gen Z users.
