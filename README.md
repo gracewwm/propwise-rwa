@@ -12,32 +12,46 @@ Indonesian Gen Z faces a severe housing affordability crisis. Residential proper
 - University: Prasetiya Mulya University
 - Telegram Handle: [@geotril](https://t.me/geotril)
 
+## AI Agent Roles
+
+To ensure Gen Z investors can make data-driven decisions without needing a background in real estate, PropWise RWA includes a set of autonomous AI agents operating as the PropWise Copilot.
+
+### Yield and Valuation Analyst Agent
+
+- Continuously scans macroeconomic data and local property trends in emerging markets such as Indonesia
+- Calculates projected Annual Percentage Yield (APY), return on investment (ROI), and fair market value for each tokenized asset
+- Helps users compare opportunities using standardized investment metrics
+
+### Risk and Due Diligence Agent
+
+- Acts as an automated auditor for every listed property
+- Cross-references legal documents, developer track records, and historical price volatility
+- Assigns a dynamic property risk score from `A+` to `C` to improve investor transparency
+
+### Personalized Wealth Matchmaker
+
+- Serves as a conversational AI guide for new and non-expert investors
+- Understands each user's budget, goals, and risk appetite
+- Recommends a suitable fractional RWA portfolio based on personalized preferences
+
 ## Technical Architecture
 
-This section will be expanded with the full system design, including:
+PropWise RWA is designed to be secure, scalable, and deeply integrated with the Base ecosystem.
 
-- Smart contract architecture for property tokenization on Base
-- Fractional ownership model and investor flows
-- AI analysis pipeline for valuation, yield, and risk assessment
-- Frontend application flow built with Next.js
-- Deployment and infrastructure components
+### Smart Contracts on Base Mainnet
 
-  ## 🤖 AI Agent Roles (The "PropWise Copilot")
-To ensure Gen Z investors make data-driven decisions without needing a background in real estate, PropWise RWA utilizes autonomous AI agents deployed on the Base ecosystem:
+- Fractionalization layer using ERC-1155 and ERC-3643 style token standards to represent affordable shares of real-world residential properties
+- Payment and escrow flows designed around USDC for low-fee property share purchases and streamlined yield distribution
+- Onchain ownership records to support transparency, composability, and future secondary market trading
 
-1. **Yield & Valuation Analyst Agent:** * Continuously scans macro-economic data and local property trends in emerging markets (like Indonesia).
-   * Calculates projected Annual Percentage Yield (APY), ROI, and fair market value for each tokenized asset.
-2. **Risk & Due Diligence Agent:**
-   * Acts as an automated auditor. It cross-references legal documents, developer track records, and historical price volatility to assign a dynamic "Risk Score" (A+ to C) to every property.
-3. **Personalized Wealth Matchmaker:**
-   * Conversational AI that interacts with users to understand their risk appetite and budget, recommending the perfect fractional RWA portfolio.
+### AI Integration Layer
 
-## 🏗️ Technical Architecture (High-Level)
-PropWise RWA is designed to be secure, scalable, and fully integrated with the **Base Mainnet**:
+- Off-chain AI agents fetch market data, analyze valuation and yield potential, and evaluate property risks
+- Verified insights are fed back into the application layer to support investor decision-making
+- The architecture is designed to combine onchain ownership with off-chain intelligence for practical, real-world usability
 
-* **Smart Contracts (Base Mainnet):** * **Fractionalization:** Utilizing ERC-1155 / ERC-3643 standards to tokenize real-world properties into affordable fractional shares.
-  * **Payment & Escrow:** Seamless integration with **USDC** for low-fee, instantaneous property share purchases and yield distribution.
-* **AI Integration Layer:**
-  * Off-chain AI agents fetch real-time market data, process it, and feed the verified analytical data back to the platform to guide user investments.
-* **User Experience:**
-  * A mobile-first, Web2-friendly interface with Account Abstraction (ERC-4337) to remove the friction of gas fees and seed phrases for mainstream Gen Z users.
+### User Experience
+
+- A mobile-first interface built for Web2-friendly onboarding
+- Account abstraction with ERC-4337 to reduce wallet friction for mainstream Gen Z users
+- Simplified flows that minimize gas and seed phrase complexity while preserving onchain ownership benefits
