@@ -55,3 +55,5 @@ PropWise RWA is designed to be secure, scalable, and deeply integrated with the 
 - A mobile-first interface built for Web2-friendly onboarding
 - Account abstraction with ERC-4337 to reduce wallet friction for mainstream Gen Z users
 - Simplified flows that minimize gas and seed phrase complexity while preserving onchain ownership benefits
+
+WATCH PROPWISE RWA DEMO VIDEO: https://youtu.be/TYvMV2zWeDY?si=fjMHlBwEPj0J44ky
